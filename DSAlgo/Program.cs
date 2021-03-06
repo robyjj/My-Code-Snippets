@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using DSAlgo.Dynamic_Programming;
+using DSAlgo._01_Arrays_and_strings;
 
 namespace DSAlgo
 {
@@ -10,6 +7,10 @@ namespace DSAlgo
     {
         static void Main(string[] args)
         {
+            //UglyNumber.Run();
+            //LIS_Length.Run();
+            //CompressingStrings.Run();
+            CheckStringRotation.Run();
         }
     }
 }

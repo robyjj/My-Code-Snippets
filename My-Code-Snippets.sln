@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterms", "DesignPat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleSnippets", "SimpleSnippets\SimpleSnippets.csproj", "{DE267D0F-254A-453B-BF8B-488A39D8FE7F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSAlgo", "DSAlgo\DSAlgo.csproj", "{46EDBEE8-074F-4102-9920-BBFA6716EE23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{DE267D0F-254A-453B-BF8B-488A39D8FE7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE267D0F-254A-453B-BF8B-488A39D8FE7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE267D0F-254A-453B-BF8B-488A39D8FE7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46EDBEE8-074F-4102-9920-BBFA6716EE23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46EDBEE8-074F-4102-9920-BBFA6716EE23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46EDBEE8-074F-4102-9920-BBFA6716EE23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46EDBEE8-074F-4102-9920-BBFA6716EE23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
