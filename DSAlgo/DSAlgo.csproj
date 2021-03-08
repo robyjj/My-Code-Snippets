@@ -47,6 +47,11 @@
     <Compile Include="01_Arrays_and_strings\CompressingStrings.cs" />
     <Compile Include="01_Arrays_and_strings\Matrix_RowColumn_To_Zero.cs" />
     <Compile Include="01_Arrays_and_strings\RotateMatrix.cs" />
+    <Compile Include="02_Linked_Lists\KthLast.cs" />
+    <Compile Include="02_Linked_Lists\LoopInLinkedList.cs" />
+    <Compile Include="02_Linked_Lists\MyLinkedList.cs" />
+    <Compile Include="02_Linked_Lists\Palindrome.cs" />
+    <Compile Include="02_Linked_Lists\RemoveDuplicates.cs" />
     <Compile Include="Dynamic_Programming\LIS_Length.cs" />
     <Compile Include="Dynamic_Programming\UglyNumber.cs" />
     <Compile Include="Program.cs" />
