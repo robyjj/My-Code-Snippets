@@ -52,6 +52,9 @@
     <Compile Include="02_Linked_Lists\MyLinkedList.cs" />
     <Compile Include="02_Linked_Lists\Palindrome.cs" />
     <Compile Include="02_Linked_Lists\RemoveDuplicates.cs" />
+    <Compile Include="03_Stacks_and_Queues\QueueUsingStack.cs" />
+    <Compile Include="03_Stacks_and_Queues\SortStack.cs" />
+    <Compile Include="03_Stacks_and_Queues\StackMin.cs" />
     <Compile Include="Dynamic_Programming\LIS_Length.cs" />
     <Compile Include="Dynamic_Programming\UglyNumber.cs" />
     <Compile Include="Program.cs" />
