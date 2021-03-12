@@ -55,6 +55,10 @@
     <Compile Include="03_Stacks_and_Queues\QueueUsingStack.cs" />
     <Compile Include="03_Stacks_and_Queues\SortStack.cs" />
     <Compile Include="03_Stacks_and_Queues\StackMin.cs" />
+    <Compile Include="04_Trees_and_Graphs\AdjacencyList.cs" />
+    <Compile Include="04_Trees_and_Graphs\BreadFirstSearch.cs" />
+    <Compile Include="04_Trees_and_Graphs\DepthFirstSearch.cs" />
+    <Compile Include="04_Trees_and_Graphs\Graph.cs" />
     <Compile Include="Dynamic_Programming\LIS_Length.cs" />
     <Compile Include="Dynamic_Programming\UglyNumber.cs" />
     <Compile Include="Program.cs" />
@@ -63,5 +67,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

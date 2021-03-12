@@ -98,7 +98,7 @@ namespace DSAlgo.Dynamic_Programming
 
         private static int MaximumDivisible(int n, int m)
         {
-            while(n%m == 0)
+            while(n % m == 0)
             {
                 n /= m;
             }

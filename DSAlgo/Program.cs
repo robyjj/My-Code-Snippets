@@ -1,6 +1,8 @@
 ﻿using DSAlgo.Dynamic_Programming;
 using DSAlgo._01_Arrays_and_strings;
 using DSAlgo._02_Linked_Lists;
+using DSAlgo._03_Stacks_and_Queues;
+using DSAlgo._04_Trees_and_Graphs;
 
 namespace DSAlgo
 {
@@ -16,7 +18,12 @@ namespace DSAlgo
             //RemoveDuplicates.Run();
             //KthLast.Run();
             //LoopInLinkedList.Run();
-            Palindrome.Run();
+            //Palindrome.Run();
+            //SortStack.Run();
+            //QueueUsingStack.Run();
+            //AdjacencyList.Run();
+            //DepthFirstSearch.Run();
+            BreadFirstSearch.Run();
         }
     }
 }
