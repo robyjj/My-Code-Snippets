@@ -57,8 +57,13 @@
     <Compile Include="03_Stacks_and_Queues\StackMin.cs" />
     <Compile Include="04_Trees_and_Graphs\AdjacencyList.cs" />
     <Compile Include="04_Trees_and_Graphs\BreadFirstSearch.cs" />
+    <Compile Include="04_Trees_and_Graphs\BSTCheck.cs" />
     <Compile Include="04_Trees_and_Graphs\DepthFirstSearch.cs" />
     <Compile Include="04_Trees_and_Graphs\Graph.cs" />
+    <Compile Include="04_Trees_and_Graphs\GraphConnection.cs" />
+    <Compile Include="04_Trees_and_Graphs\GraphRoute.cs" />
+    <Compile Include="04_Trees_and_Graphs\Tree.cs" />
+    <Compile Include="04_Trees_and_Graphs\TreeTraversal.cs" />
     <Compile Include="Dynamic_Programming\LIS_Length.cs" />
     <Compile Include="Dynamic_Programming\UglyNumber.cs" />
     <Compile Include="Program.cs" />

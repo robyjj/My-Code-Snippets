@@ -10,20 +10,42 @@ namespace DSAlgo
     {
         static void Main(string[] args)
         {
+            #region Dynamic Programming
             //UglyNumber.Run();
             //LIS_Length.Run();
+            #endregion
+
+            #region Arrays & Strings
             //CompressingStrings.Run();
             //CheckStringRotation.Run();
             //RotateMatrix.Run();
             //RemoveDuplicates.Run();
+            #endregion
+
+            #region Linked Lists
             //KthLast.Run();
             //LoopInLinkedList.Run();
             //Palindrome.Run();
+            #endregion
+
+            #region Stacks & Queues
             //SortStack.Run();
             //QueueUsingStack.Run();
+            #endregion
+
+            #region Trees & Graphs
             //AdjacencyList.Run();
             //DepthFirstSearch.Run();
-            BreadFirstSearch.Run();
+            //BreadFirstSearch.Run();
+            //TreeTraversal.Run();
+            //BSTCheck.Run();
+            //GraphConnection.Run();
+            GraphRoute.Run();
+            #endregion
+
+
+
+
         }
     }
 }
