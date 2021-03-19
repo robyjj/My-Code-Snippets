@@ -3,6 +3,7 @@ using DSAlgo._01_Arrays_and_strings;
 using DSAlgo._02_Linked_Lists;
 using DSAlgo._03_Stacks_and_Queues;
 using DSAlgo._04_Trees_and_Graphs;
+using DSAlgo.LeetCode;
 
 namespace DSAlgo
 {
@@ -19,7 +20,7 @@ namespace DSAlgo
             //CompressingStrings.Run();
             //CheckStringRotation.Run();
             //RotateMatrix.Run();
-            //RemoveDuplicates.Run();
+            //RemoveDuplicates.Run();          
             #endregion
 
             #region Linked Lists
@@ -40,9 +41,15 @@ namespace DSAlgo
             //TreeTraversal.Run();
             //BSTCheck.Run();
             //GraphConnection.Run();
-            GraphRoute.Run();
+            //GraphRoute.Run();
             #endregion
 
+            #region LeetCode
+            //01
+            //TwoSum.Run();
+            //02
+            LinkedList_Addition.Run();
+            #endregion
 
 
 

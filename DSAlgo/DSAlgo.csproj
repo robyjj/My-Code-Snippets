@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="01_Arrays_and_strings\CheckStringRotation.cs" />
     <Compile Include="01_Arrays_and_strings\CompressingStrings.cs" />
+    <Compile Include="LeetCode\01_TwoSum.cs" />
     <Compile Include="01_Arrays_and_strings\Matrix_RowColumn_To_Zero.cs" />
     <Compile Include="01_Arrays_and_strings\RotateMatrix.cs" />
     <Compile Include="02_Linked_Lists\KthLast.cs" />
@@ -66,6 +67,7 @@
     <Compile Include="04_Trees_and_Graphs\TreeTraversal.cs" />
     <Compile Include="Dynamic_Programming\LIS_Length.cs" />
     <Compile Include="Dynamic_Programming\UglyNumber.cs" />
+    <Compile Include="LeetCode\02_LinkedList_Addition.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

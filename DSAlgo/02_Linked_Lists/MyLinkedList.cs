@@ -9,10 +9,10 @@ namespace DSAlgo._02_Linked_Lists
         {
             public int data;
             public Node next;
-            public Node(int d)
+            public Node(int d, Node next = null)
             {
-                data = d;
-                next = null;
+                this.data = d;
+                this.next = next;                
             }
         }
         public static void PrintList(Node node)
