@@ -4,7 +4,7 @@ using static DSAlgo._02_Linked_Lists.MyLinkedList;
 
 namespace DSAlgo.LeetCode
 {
-    public class LinkedList_Addition
+    public class _02_LinkedList_Addition
     {
         public static void Run()
         {

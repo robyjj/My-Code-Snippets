@@ -45,10 +45,13 @@ namespace DSAlgo
             #endregion
 
             #region LeetCode
-            //01
-            //TwoSum.Run();
-            //02
-            LinkedList_Addition.Run();
+            //_01_TwoSum.Run();            
+            //_02_LinkedList_Addition.Run();
+            //_03_LongestSubstringLength.Run();
+            //_04_SortedArray_Median.Run();
+            //_05_LongestPalindromicSubstring.Run();
+            //_1406_StoneGameThree.Run();
+            _1054_DistinctBarCodes.Run();
             #endregion
 
 

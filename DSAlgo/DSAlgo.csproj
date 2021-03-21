@@ -68,6 +68,11 @@
     <Compile Include="Dynamic_Programming\LIS_Length.cs" />
     <Compile Include="Dynamic_Programming\UglyNumber.cs" />
     <Compile Include="LeetCode\02_LinkedList_Addition.cs" />
+    <Compile Include="LeetCode\03_Length_LongestSubstring.cs" />
+    <Compile Include="LeetCode\04_SortedArray_Median.cs" />
+    <Compile Include="LeetCode\05_LongestPalindromicSubstring.cs" />
+    <Compile Include="LeetCode\1054_DistinctBarCodes.cs" />
+    <Compile Include="LeetCode\1406_StoneGameThree.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

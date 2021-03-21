@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DSAlgo._01_Arrays_and_strings
 {
-    public class TwoSum
+    public class _01_TwoSum
     {
         public static void Run()
         {
