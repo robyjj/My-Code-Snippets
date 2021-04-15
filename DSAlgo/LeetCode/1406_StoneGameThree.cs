@@ -18,7 +18,7 @@ namespace DSAlgo.LeetCode
         public static string StoneGameIII_Optimized(int[] stoneValue)
         {
             int len = stoneValue.Length;
-            int[] dp = new int[len + 1];
+            //int[] dp = new int[len + 1];
             int i = len - 1;
             int i1 = 0, i2=0, i3=0;
             while (i >= 0)

@@ -4,6 +4,8 @@ using DSAlgo._02_Linked_Lists;
 using DSAlgo._03_Stacks_and_Queues;
 using DSAlgo._04_Trees_and_Graphs;
 using DSAlgo.LeetCode;
+using DSAlgo.LeetCode.Easy;
+using DSAlgo.LeetCode.Medium;
 
 namespace DSAlgo
 {
@@ -51,7 +53,18 @@ namespace DSAlgo
             //_04_SortedArray_Median.Run();
             //_05_LongestPalindromicSubstring.Run();
             //_1406_StoneGameThree.Run();
-            _1054_DistinctBarCodes.Run();
+            //_1054_DistinctBarCodes.Run();
+            //_746_MinCostClimingStairs.Run();
+            //_738_MonotoneIncreasingDigits.Run();
+            //_14_Longest_Common_Prefix.Run();
+            //_26_Remove_Duplicates_Sorted_Array.Run();
+            //_189_Rotate_Array.Run();
+            //_283_Move_Zeroes.Run();
+            //_66_PlusOne.Run();
+            //_36_Valid_Sudoku.Run();
+            //_350_Intersection_Two_Arrays.Run();
+            _234_Palindrome_LinkedList.Run();
+            //AlgSwap.Run();
             #endregion
 
 
