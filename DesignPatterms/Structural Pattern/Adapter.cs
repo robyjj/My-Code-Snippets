@@ -106,4 +106,13 @@ namespace DesignPatterns.Structural_Pattern
             return _lumiaXmlTarget.GetLumiaMobilesXMLSpecifications();
         }
     }
+
+    //public class Runner
+    //{
+    //    public Runner()
+    //    {
+    //        MyLumiaClient obj = new MyLumiaClient(new LumiaXMLAdapter());
+    //        obj.GetLumiaData();
+    //    }
+    //}
 }

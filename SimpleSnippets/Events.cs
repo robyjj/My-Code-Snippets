@@ -25,7 +25,7 @@ namespace Snippets
 
     class Runner
     {
-        public static void Main(string[] args)
+        public static void Main2()//string[] args)
         {
             ProcessBusinessLogic b1 = new ProcessBusinessLogic();
             b1.ProcessCompleted += bl_ProcessCompleted;

@@ -46,6 +46,10 @@
     <Compile Include="01_Arrays_and_strings\CheckStringRotation.cs" />
     <Compile Include="01_Arrays_and_strings\CompressingStrings.cs" />
     <Compile Include="01_Arrays_and_strings\MinDeletionsRightFormat.cs" />
+    <Compile Include="01_Arrays_and_strings\NumbersToWords.cs" />
+    <Compile Include="Amazon OA\ShipmentImbalance.cs" />
+    <Compile Include="Dynamic_Programming\MaxSubArrayLength.cs" />
+    <Compile Include="Dynamic_Programming\NumberOfWaysToX.cs" />
     <Compile Include="LeetCode\01_TwoSum.cs" />
     <Compile Include="01_Arrays_and_strings\Matrix_RowColumn_To_Zero.cs" />
     <Compile Include="01_Arrays_and_strings\RotateMatrix.cs" />
@@ -80,12 +84,16 @@
     <Compile Include="LeetCode\746_MinCostClimingStairs.cs" />
     <Compile Include="LeetCode\AlgSwap.cs" />
     <Compile Include="LeetCode\738_MonotoneIncreasingDigits.cs" />
+    <Compile Include="LeetCode\Easy\1013_PartitionArrayInto3Parts.cs" />
+    <Compile Include="LeetCode\Easy\1991_MiddleIndex.cs" />
     <Compile Include="LeetCode\Easy\234_Palindrome_LinkedList.cs" />
     <Compile Include="LeetCode\Easy\283_Move_Zeroes.cs" />
     <Compile Include="LeetCode\Easy\350_Intersection_Two_Arrays.cs" />
     <Compile Include="LeetCode\Easy\66_PlusOne.cs" />
+    <Compile Include="LeetCode\Hard\135_Candy_Distribution.cs" />
     <Compile Include="LeetCode\Medium\36_Valid_Sudoku.cs" />
     <Compile Include="LeetCode\Medium\_102_BinaryTree_LevelOrder.cs" />
+    <Compile Include="LeetCode\Medium\_200_Number_Of_Islands.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

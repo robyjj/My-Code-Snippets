@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 
 namespace Snippets
 {
@@ -6,7 +7,7 @@ namespace Snippets
     public class EventsBankAccount
     {       
         public static void Run()
-        {
+        {            
             BankAccount account = new BankAccount("Test", 30);
             BalanceChangeEventHandler bc = new BalanceChangeEventHandler(account.ShowBalance);
             account.BalanceChanged += bc;

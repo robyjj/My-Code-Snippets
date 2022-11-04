@@ -13,17 +13,23 @@ namespace Snippets
 
         public static int ModifyNumber (int n)
         {
-            return num +n;
+             num += n;
+            return num;
         }
-        public static void Main(string[] args)
+        public static void Run()//string[] args)
         {
-            NumberChanger nc = new NumberChanger(ModifyNumber);
+            NumberChanger nc = ModifyNumber;//new NumberChanger(ModifyNumber);
             nc(10);
-
-            //Anonymous Method
+            Console.Write(num);
+            //Anonymous Method - a method without a name
 
             List<int> list = new List<int> { 1, 2, 3, 4, 5 };
             var result = list.Find(delegate (int x){
+                if (x == 5) return true;
+                return false;
+            });
+
+            var res = list.Find( (int x)=> {
                 if (x == 5) return true;
                 return false;
             });

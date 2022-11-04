@@ -8,7 +8,7 @@ namespace Snippets
 {
     public class SimpleAsync
     {
-        public void Run()
+        public static void Run()
         {
             DoSomeSync();
             var task = DoSomeAsync();
@@ -17,18 +17,19 @@ namespace Snippets
             Console.ReadLine();
         }
 
-        public void DoSomeSync()
+        public static void DoSomeSync()
         {
-
+            Console.WriteLine("DoSomeSync");
         }
-        public void DoSomemoreSync()
+        public static void DoSomemoreSync()
         {
-
+            Console.WriteLine("DoSomemoreSync");
         }
-        public async Task DoSomeAsync()
+        public static async Task DoSomeAsync()
         {
             await Task.Run(() =>
             {
+                Console.WriteLine("Large Process");
                 //Large Process
             });
         }

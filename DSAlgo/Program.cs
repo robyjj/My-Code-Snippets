@@ -1,4 +1,5 @@
-﻿using DSAlgo.Dynamic_Programming;
+﻿using System;
+using DSAlgo.Dynamic_Programming;
 using DSAlgo._01_Arrays_and_strings;
 using DSAlgo._02_Linked_Lists;
 using DSAlgo._03_Stacks_and_Queues;
@@ -6,6 +7,7 @@ using DSAlgo._04_Trees_and_Graphs;
 using DSAlgo.LeetCode;
 using DSAlgo.LeetCode.Easy;
 using DSAlgo.LeetCode.Medium;
+using DSAlgo.LeetCode.Hard;
 
 namespace DSAlgo
 {
@@ -16,13 +18,16 @@ namespace DSAlgo
             #region Dynamic Programming
             //UglyNumber.Run();
             //LIS_Length.Run();
+            //NumberOfWaysToX.Run();
+            //NumbersToWords.Run();
             #endregion
 
             #region Arrays & Strings
             //CompressingStrings.Run();
             //CheckStringRotation.Run();
             //RotateMatrix.Run();
-            //RemoveDuplicates.Run();          
+            //RemoveDuplicates.Run();
+            //NumbersToWords.Run();
             #endregion
 
             #region Linked Lists
@@ -63,8 +68,15 @@ namespace DSAlgo
             //_66_PlusOne.Run();
             //_36_Valid_Sudoku.Run();
             //_350_Intersection_Two_Arrays.Run();
-            _234_Palindrome_LinkedList.Run();
+            //_234_Palindrome_LinkedList.Run();
             //AlgSwap.Run();
+            //_200_Number_Of_Islands.Run();
+            //MaxSubArrayLength.Run();
+            //_1013_PartitionArrayInto3Parts.Run();
+            //_1991_MiddleIndex.Run();
+            _135_Candy_Distribution.Run();
+            Console.Read();
+
             #endregion
 
 

@@ -10,9 +10,13 @@ namespace Snippets
     {
         static void Main(string[] args)
         {
-            EventsBankAccount.Run();
-
+            ActionFuncPred.Run();
+            //Delegates.Run();
+            //SimpleAsync.Run();
+            //EventsBankAccount.Run();
             Console.ReadLine();
         }
     }
+
+
 }

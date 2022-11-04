@@ -6,10 +6,18 @@ using System.Threading.Tasks;
 
 namespace Snippets
 {
-    class ActionFuncPred
-    {
-        static void Main(string[] args)
+    public class ActionFuncPred
+    {        
+        public static void Run()
         {
+            Predicate<string> longWords = delegate (string word) { return word.Length > 2; };
+            Predicate<string>  startsWith =  (string word) => { return word.StartsWith("d"); }; 
+            //Predicate<int> fn = x => x > 0;
+            string[] words = { "abc", "ddddddd", "assssssd" };
+            longWords += startsWith;
+            int res = Count(words, longWords);
+
+            Action<int> CW = Console.WriteLine;
             //Action does not return anything
             Action<string> log = new Action<string>(LogInfo);
             log.Invoke("Hi ALL");
@@ -17,9 +25,9 @@ namespace Snippets
             Console.ReadLine();
 
 
-            Func<int, int, int> addFunc = new Func<int, int, int>(Add);
+            Func<int, int, int> addFunc = Add;// new Func<int, int, int>(Add);
             int result = addFunc(3, 4);
-            Console.WriteLine(result);
+            CW(result);
             Console.ReadLine();
 
             ///dont specify return type as its always bool
@@ -43,6 +51,19 @@ namespace Snippets
         static bool IsEvenNumber(int number)
         {
             return number % 2 == 0;
+        }
+
+        static int Count<T>(T [] arr, Predicate<T> condition)
+        {
+            int counter = 0;
+            for(int i = 0; i < arr.Length; i++)
+            {
+                if (condition(arr[i]))
+                {
+                    counter++;
+                }
+            }
+            return counter;
         }
     }
 }

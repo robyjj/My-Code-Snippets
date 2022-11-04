@@ -51,6 +51,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Structural Pattern\Adapter.cs" />
+    <Compile Include="Structural Pattern\Facade.cs" />
     <Compile Include="Structural Pattern\Proxy.cs" />
   </ItemGroup>
   <ItemGroup>

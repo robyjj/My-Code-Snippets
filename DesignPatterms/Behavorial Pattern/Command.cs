@@ -51,7 +51,7 @@ namespace DesignPatterns.Behavorial_Pattern
             ICommand command = invoke.GetCommand("Start");
             command.Execute();
             command = invoke.GetCommand("Stop");
-            command.Execute();
+            command.Execute();           
         }
     }
 }
